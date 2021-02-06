@@ -1,5 +1,5 @@
 # PROVI HACK-WOMAN 2021
-# EQUIPE PUPA - PROJETO CASULO
+## EQUIPE PUPA - PROJETO CASULO
 ## Sobre nós
   <hr>
   
@@ -45,11 +45,11 @@ Inserir instruções de preenchimento do cadastro.
 
 <hr>
 
-## **Autores:**
+## **Criadoras:**
   
   <img src="" width="100" height="100"> <!-- Link para imagem Guilhermina -->
   
-**Guilheremina Araujo**
+**Guilheremina Araujo** [BACK-END]
 - Meus projetos - [GitHub](https://github.com/araujo-gui)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)
 - Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)
@@ -57,7 +57,7 @@ Inserir instruções de preenchimento do cadastro.
 
 <img src="" width="100" height="100"> <!-- Link para imagem Marcella -->
 
-**Marcella Justo**
+**Marcella Justo** [DATA]
 - Meus projetos - [GitHub](https://github.com/)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
 - Minha vida - [Instagram](https://www.instagram.com/)
@@ -65,15 +65,16 @@ Inserir instruções de preenchimento do cadastro.
 
 <img src="" width="100" height="100"> <!-- Link para imagem Marina -->
 
-**Marina**
+**Marina** [DESIGN]
 - Meus projetos - [GitHub](https://github.com/)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
 - Minha vida - [Instagram](https://www.instagram.com/)
 
 
-<img src="" width="100" height="100"> <!-- Link para imagem Roberta -->
+<img src="https://avatars.githubusercontent.com/u/62289018?s=460&u=9688df54baa8153c730e5eab5669943ed91882c6&v=4" 
+width="100" height="100"> <!-- Link para imagem Roberta -->
 
-**Roberta Santos**
+**Roberta Santos** [PRODUTO]
 - Meus projetos - [GitHub](https://github.com/LaDespistada1981)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
 - Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
@@ -81,7 +82,7 @@ Inserir instruções de preenchimento do cadastro.
 
 <img src="" width="100" height="100"> <!-- Link para imagem Samantha -->
 
-**Samantha**
+**Samantha** [FRONT-END]
 - Meus projetos - [GitHub](https://github.com/)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
 - Minha vida - [Instagram](https://www.instagram.com/)
@@ -89,7 +90,7 @@ Inserir instruções de preenchimento do cadastro.
 
 <img src="" width="100" height="100"> <!-- Link para imagem Marina -->
 
-**Shirlei**
+**Shirlei** [BACK-END]
 - Meus projetos - [GitHub](https://github.com/)
 - Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
 - Minha vida - [Instagram](https://www.instagram.com/)
