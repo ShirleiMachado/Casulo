@@ -33,10 +33,15 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 ## ✒️ As Criadoras
 
 ⚙️**Guilhermina Araujo** - *Back-end* - [GitHub](https://github.com/araujo-gui)
+
 📀 **Marcella Justo** - *Data* - [GitHub](https://github.com/justo-marcella)
+
 💡**Marina Merlin** - *Design* - [Portfolio](https://www.marinamerlin.com/)
+
 🚀 **Roberta Santos** - *Produto* - [GitHub](https://github.com/LaDespistada1981)
+
 💻 **Samantha Bianchi** - *Front-end* - [GitHub](https://github.com/SahBianchi)
+
 ⚙️**Shirlei Machado** - *Back-end* - [GitHub](https://github.com/ShirleiMachado)
 
 
