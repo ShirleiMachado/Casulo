@@ -1,18 +1,16 @@
 export enum UserType {
-    BAND = "BAND",
-    PAYING_LISTENER = "PAYING_LISTENER",
-    NO_PAYING_LISTENER = "NO_PAYING_LISTENER",
-    ADMIN = "ADMIN"
+    MENTORIES = "MENTORIES",
+    LIST_MENTORIES = "LIST_MENTORIES",
+    LIST_MENTOR = "LIST_MENTOR",
+    MENTOR = "MENTOR"
   }
   
-  export class Band{
+  export class Mentories{
    
     constructor(
       private id: string,
       private name: string,
-      private nickname: string,
-      private email: string,
-      private password: string,
+      private theme: string,
       private description: string,
       private aproved: boolean = false,
       private role: UserType
@@ -26,16 +24,8 @@ export enum UserType {
       return this.name;
     }
   
-    getNickName(): string {
-        return this.nickname;
-    }
-
-    getEmail(): string {
-      return this.email;
-    }
-      
-    getPassword(): string {
-      return this.password;
+    getTheme(): string {
+        return this.theme;
     }
 
     getDescription(): string {
@@ -58,12 +48,8 @@ export enum UserType {
       this.name = name;
     }
   
-    setNickName(nickname: string) {
-      this.nickname = nickname;
-    }
-
-    setEmail(email: string) {
-        this.email = email;
+    setTheme(theme: string) {
+      this.theme = theme;
     }
 
     setAproved(aproved: boolean) {

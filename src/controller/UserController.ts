@@ -7,17 +7,19 @@ export class UserController {
     try {
       const userData = {
         name: req.body.name,
-        nasc: req.body.nasc,
-        city: req.body.city,
-        job: req.body.job,
         email: req.body.email,
         password: req.body.password,
+        city: req.body.city,
+        job: req.body.job,
+        gender: req.body.gender,
+        question: req.body.question,
         role: req.body.role
       };
     
       const userBusiness = new UserBusiness();
-      const accessToken = await userBusiness.signup(userData.name, userData.nasc, 
-      userData.email, userData.password, userData.city, userData.job, userData.role);
+      const accessToken = await userBusiness.signup(userData.name, userData.email, 
+      userData.password, userData.city, userData.job, userData.gender, 
+      userData.question, userData.role);
 
       res.status(200).send({
         token: accessToken,
@@ -26,30 +28,30 @@ export class UserController {
       res.status(400).send({
         message: e.message,
       });
-    
-      
+          
     }
     BaseDataBase.destroyConnection();
   }
 
-  public async signupAdmin(req: Request, res: Response) {
+  public async signupMentor(req: Request, res: Response) {
     try {
       const userData = {
         name: req.body.name,
-        nasc: req.body.nasc,
         email: req.body.email,
         password: req.body.password,
         city: req.body.city,
         job: req.body.job,
+        gender: req.body.gender,
+        question: req.body.question,
+        description:req.body.descrption,
         role: req.body.role,
         token: req.headers.token as string
       };        
     
       const userBusiness = new UserBusiness();
-      const accessToken = await userBusiness.signupAdmin(userData.name, 
-        userData.nasc, userData.email, userData.password, userData.city, 
-        userData.job, userData.role userData.token);
-
+      const accessToken = await userBusiness.signupMentor(userData.name, userData.email, 
+        userData.password, userData.city, userData.job, userData.gender, 
+        userData.question, userData.description, userData.role, userData.token);
 
         res.status(200).send({
         token: accessToken,
@@ -109,17 +111,17 @@ export class UserController {
 //   BaseDataBase.destroyConnection();
 //  }
 
-//  async getAllBandList(req: Request, res: Response) {
+ async getAllMentor(req: Request, res: Response) {
 
-//   try {
-//     const userBusiness = new UserBusiness();
-//     const result = await userBusiness.getAllBand(req.headers.authorization!)
-//     res.status(200).send({
-//       result
-//     });
+  try {
+    const userBusiness = new UserBusiness();
+    const result = await userBusiness.getAllMentor(req.headers.authorization!)
+    res.status(200).send({
+      result
+    });
 
-//   } catch (error) {
-//       res.send({ message: error.message }).status(error.code);
-//   }
-// }
+  } catch (error) {
+      res.send({ message: error.message }).status(error.code);
+  }
+}
 }

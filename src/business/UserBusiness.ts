@@ -5,10 +5,11 @@ import Authenticator from "../sevices/Authenticator";
 
 export class UserBusiness {
  
-  async signup(name: string, email: string, password: string, nasc: string,
-    city: string, job: string, role:string) {
+  async signup(name: string, email: string, password: string, city: string,
+    job: string, gender: string, question:string, role:string) {
 
-        if (!name || !email || !password || !nasc ||!city || !job || !role)
+        if (!name || !email || !password || !city ||!job || !gender || !question 
+          || !role)
         {
           throw new Error("Invalid input");
         }
@@ -18,8 +19,8 @@ export class UserBusiness {
         if (password.length < 6) {
           throw new Error("Password must have at least 6 characters");
         }
-        if (role === "ADMIN") {
-          throw new Error("Error creating user. Please check your system administrator.")
+        if (role === "MENTOR") {
+          throw new Error("Error creating user. Please check your system mentor.")
         }
 
     const hashManager = new HashManager();
@@ -29,7 +30,8 @@ export class UserBusiness {
     const id = idGenerator.generateId();
 
     const userDatabase = new UserDatabase();
-    await userDatabase.CreateUser(id, name, nasc, city, email, job, cipherText, role);
+    await userDatabase.CreateUser(id, name, email, city, job, gender, 
+      cipherText, role);
 
     const authenticator = new Authenticator();
     const accessToken = authenticator.generateToken({id, role})
@@ -37,10 +39,11 @@ export class UserBusiness {
     return accessToken
   }
 
-  async signupAdmin(name: string, email: string, password: string, nasc: string,
-    city: string, job: string, role:string, token:string) {
+  async signupMentor(name: string, email: string, password: string, city: string,
+    job: string, gender: string, question:string, description:string, role:string, token:string) {
 
-        if (!name || !email || !password || !nasc ||!city || !job || !role)
+        if (!name || !email || !password || !city ||!job || !gender || !question 
+          || !description|| !role)
         {
           throw new Error("Invalid input");
         }
@@ -56,7 +59,7 @@ export class UserBusiness {
       const authenticationData = userAuthenticator.getData(token);
       const userRole = authenticationData.role;
 
-      if(userRole !== "ADMIN") {
+      if(userRole !== "MENTOR") {
         throw new Error("Access Denied")
       }
 
@@ -68,7 +71,8 @@ export class UserBusiness {
     const id = idGenerator.generateId();
 
     const userDatabase = new UserDatabase();
-    await userDatabase.CreateUser(id, name, email, nasc, city, job,  cipherText, role);
+    await userDatabase.CreateUser(id, name, email, password, city, job, 
+      gender, role);
 
     const authenticator = new Authenticator();
     const accessToken = authenticator.generateToken({id, role})
@@ -88,13 +92,28 @@ export class UserBusiness {
 
       if (!hashCompare) {
         throw new Error("Invalid Password!");
-
-     }
+      }
         const authenticator = new Authenticator();
         const accessToken = authenticator.generateToken({id: user.getId(), role: user.getRole()})
 
         return accessToken
     }
 
+  public async getAllMentor(token:string){
+      if(!token) {
+        throw new Error ("missing access token");
+      }
+  
+      const authenticator = new Authenticator();
+      const tokenData = authenticator.getData(token);
+  
+      if(tokenData.role !== "MENTOR"){
+        throw new Error ("Only MENTOR");
+      }
+      const mentorDatabase = new UserDatabase();
+      const result = await mentorDatabase.getAllMentor();
+  
+      return result;
+    }
     
 };

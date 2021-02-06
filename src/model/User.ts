@@ -1,20 +1,21 @@
 export enum UserType {
-    BAND = "BAND",
-    PAYING_LISTENER = "PAYING_LISTENER",
-    NO_PAYING_LISTENER = "NO_PAYING_LISTENER",
-    ADMIN = "ADMIN"
-  }
+  MENTORIES = "MENTORIES",
+  LIST_MENTORIES = "LIST_MENTORIES",
+  LIST_MENTOR = "LIST_MENTOR",
+  MENTOR = "MENTOR"
+}
   
   export class User{
-   
+  
     constructor(
       private id: string,
       private name: string,
-      private nasc: string,
       private email: string,      
       private password: string,
       private city: string,
       private job: string,
+      private gender: string,
+      private question: string,
       private role: UserType
     ) {}
   
@@ -29,21 +30,25 @@ export enum UserType {
     getEmail(): string {
       return this.email;
     }
-  
-    getNasc(): string {
-      return this.nasc;
-    }
 
-    getJob(): string {
-      return this.job;
-    }
-  
     getPassword(): string {
       return this.password;
     }
 
     getCity(): string {
       return this.city;
+    }
+  
+    getJob(): string {
+      return this.job;
+    }
+  
+    getGender(): string {
+      return this.gender;
+    }
+
+    getQuestion(): string {
+      return this.question;
     }
   
     getRole(): string {
@@ -54,16 +59,12 @@ export enum UserType {
       this.id = id;
     }
   
-    setEmail(email: string) {
-      this.email = email;
-    }
-  
     setName(name: string) {
       this.name = name;
     }
 
-    setNasc(nasc: string) {
-      this.nasc = nasc;
+    setEmail(email: string) {
+      this.email = email;
     }
   
     setCity(city: string) {
@@ -77,5 +78,4 @@ export enum UserType {
     setRole(): string {
       return this.role;
     }
-   
-   }
+  }
