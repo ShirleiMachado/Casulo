@@ -1,96 +1,47 @@
 # PROVI HACK-WOMAN 2021
-## EQUIPE PUPA - PROJETO CASULO
-## Sobre nós
-  <hr>
-  
- **Missão:** "Transformar a experiência de escolher um filme, e tornar esse momento mágico."
- 
- **Visão:** "Ser a maior e melhor pataforma de mentoria até 2025"
- 
- **Valores:** 
- 
- 1. **Satisfação tanto de nossos usuários quanto de nossos mentores:** eles são a razão da nossa existência;
- 2. **Paixão pela colaboração:** As histórias mexem com a gente, trazem novas perspectivas e aproximam as pessoas;
- 3. **Criatividade:** A desobediência é uma virtude; 
- 4. **Valorização e respeito às pessoas:** o seu tempo é precioso;
- 
 
-## O que fazemos?
-<hr>
+# Equipe PUPA - Projeto Casulo
 
-Texto descritivo sobre o que fazemos.
+Nosso **Casulo** é uma plataforma web que nasce da necessidade inconteste de profissionais em transição de carreira para tecnologia encontrarem suporte em sua trilha de desenvolvimento.
+
+Na **Casulo** a experiência de mentoria é customizada e o mais humanizada possível. E a mentoria só acontece se houver fit cultural entre mentor e mentorado, garantindo que o relacionamento entre eles ocorra em total confiança.
 
 
-<!-- Imagem do site -->
-<p align="center">
- <img src="" width="400" height="350"> 
-</p>
+## 🚀 Começando
 
-## F.A.Q
-<hr>
+Essas instruções permitirão que você consiga ter esse projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-### Como me cadastro ?
+### 📋 Pré-requisitos para instalação 🔧
 
-Sua primeira vez conosco?
-Você deve acessar o página de Login e Clicar em "Não tenho cadastro. Cadastrar-me".
-
-<!-- Imagem mostrando onde se cadastrar -->
-<p align="center"><img src="" width="450" height="350"></p>
-
-Inserir instruções de preenchimento do cadastro.
-
-<!-- Imagem mostrando página do cadastro -->
-<p align="center"><img src="" width="450" height="350"></p>
+Informar os requisitos e dependências necessárias para a instalação e operação do produto em ambiente local.
 
 
-<hr>
+## 📦 Desenvolvimento
 
-## **Criadoras:**
-  
-  <img src="" width="100" height="100"> <!-- Link para imagem Guilhermina -->
-  
-**Guilheremina Araujo** [BACK-END]
-- Meus projetos - [GitHub](https://github.com/araujo-gui)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/guilhermina-ara%C3%BAjo-b780b5108/)
-- Minha vida - [Instagram](https://www.instagram.com/guiiaaraujo_/?hl=pt-br)
+### 🛠️ Construído com
+
+* [Figma](https://www.figma.com/) - Usada para design de criação e prototipagem de telas.
+* [TypeScript](https://www.typescriptlang.org/docs/) - Linguagem utilizada no Back-end.
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem utilizada no Front-end.
 
 
-<img src="" width="100" height="100"> <!-- Link para imagem Marcella -->
+## 📌 Versão
 
-**Marcella Justo** [DATA]
-- Meus projetos - [GitHub](https://github.com/)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
-- Minha vida - [Instagram](https://www.instagram.com/)
+Nós usamos [GitHub](https://github.com/) para controle de versão. Para as versões disponíveis, procure em [Casulo](https://github.com/ShirleiMachado/Casulo). 
 
 
-<img src="" width="100" height="100"> <!-- Link para imagem Marina -->
+## ✒️ As Criadoras
 
-**Marina** [DESIGN]
-- Meus projetos - [GitHub](https://github.com/)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
-- Minha vida - [Instagram](https://www.instagram.com/)
-
-
-<img src="https://avatars.githubusercontent.com/u/62289018?s=460&u=9688df54baa8153c730e5eab5669943ed91882c6&v=4" 
-width="100" height="100"> <!-- Link para imagem Roberta -->
-
-**Roberta Santos** [PRODUTO]
-- Meus projetos - [GitHub](https://github.com/LaDespistada1981)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/santosroberta)
-- Minha vida - [Instagram](https://www.instagram.com/ladespistada/)
+⚙️  **Guilhermina Araujo** - *Back-end* - [GitHub](https://github.com/araujo-gui)
+📀   **Marcella Justo** - *Data* - [GitHub](https://github.com/justo-marcella)
+💡  **Marina Merlin** - *Design* - [Portfolio](https://www.marinamerlin.com/)
+🚀   **Roberta Santos** - *Produto* - [GitHub](https://github.com/LaDespistada1981)
+💻   **Samantha** - *Front-end* - [GitHub](https://github.com/SahBianchi)
+⚙️  **Shirlei Machado** - *Back-end* - [GitHub](https://github.com/ShirleiMachado)
 
 
-<img src="" width="100" height="100"> <!-- Link para imagem Samantha -->
+## 🎁 Expressões de gratidão
 
-**Samantha** [FRONT-END]
-- Meus projetos - [GitHub](https://github.com/)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
-- Minha vida - [Instagram](https://www.instagram.com/)
+* Gostariámos de agradecer a PROVI por promover o PROVI HACK-WOMAN e nos dar oportunidade de compartilharmos nossos conhecimentos e desenvolvermos nossas habilidades na construção de nossa solução para o desafio.
 
-
-<img src="" width="100" height="100"> <!-- Link para imagem Marina -->
-
-**Shirlei** [BACK-END]
-- Meus projetos - [GitHub](https://github.com/)
-- Meus trabalhos - [LinkedIn](https://www.linkedin.com/in/)
-- Minha vida - [Instagram](https://www.instagram.com/)
+* Obrigada a todas as mentoras que nos motivaram e apoiaram ao longo do desenvolvimento deste projeto. 🙎‍♀️💪
