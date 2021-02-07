@@ -34,7 +34,7 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação utilizada no Front-end.
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Utilizado para estilização das páginas no Front-end.
 * [MySQL](https://dev.mysql.com/doc/) - Gerenciador de Banco de dados.
-* [Metabase](https://www.metabase.com/docs/latest/) - Gerenciador de Banco de dados.
+* [Metabase](https://www.metabase.com/docs/latest/) - Análise de dados e Business Intelligence.
 * [Docker](https://docs.docker.com/) - Criação de ambiente de desenvolvimento.
 <br>
 
