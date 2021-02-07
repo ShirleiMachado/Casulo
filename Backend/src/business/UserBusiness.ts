@@ -76,25 +76,6 @@ export class UserBusiness {
     return accessToken
   }
 
-  // public async login(email:string,  password: string) {
-  //   if (!password || !email)
-  //     {
-  //       throw new Error("Invalid user");
-  //     }
-  //     const userDatabase = new UserDatabase();
-  //     const user = await userDatabase.getUserEmail(email)
-  //     const hashManager = new HashManager();
-  //     const hashCompare = await hashManager.compare(password, user.getPassword());
-
-  //     if (!hashCompare) {
-  //       throw new Error("Invalid Password!");
-  //     }
-  //       const authenticator = new Authenticator();
-  //       const accessToken = authenticator.generateToken({id: user.getId(), role: user.getRole()})
-
-  //       return accessToken
-  //   }
-
   public async login(email:string,  password: string) {
     if (!password || !email)
       {
@@ -112,7 +93,6 @@ export class UserBusiness {
         const accessToken = authenticator.generateToken({id: user.getId(), role: user.getRole()})
 
         return accessToken
-        
     }
     
 };
