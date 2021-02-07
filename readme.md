@@ -4,7 +4,7 @@
 
 Nosso **Casulo** é uma plataforma web que nasce da necessidade inconteste de profissionais em transição de carreira para tecnologia encontrarem suporte em sua trilha de desenvolvimento.
 
-Na **Casulo** a experiência de mentoria é customizada e o mais humanizada possível. E a mentoria só acontece se houver fit cultural entre mentor e mentorado, garantindo que o relacionamento entre eles ocorra em total confiança.
+Na **Casulo** a experiência de mentoria é customizada e o mais humanizada possível. Aqui a mentoria só acontece se houver fit cultural entre mentor e mentorado, garantindo que o relacionamento entre eles ocorra em total confiança.
 <br>
 
 
