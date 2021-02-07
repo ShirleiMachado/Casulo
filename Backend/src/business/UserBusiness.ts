@@ -77,12 +77,14 @@ export class UserBusiness {
   }
 
   public async login(email:string,  password: string) {
+    
     if (!password || !email)
       {
         throw new Error("Invalid user");
       }
       const userDatabase = new UserDatabase();
       const user = await userDatabase.getUserEmail(email)
+      console.log(user, user.getPassword)
       const hashManager = new HashManager();
       const hashCompare = await hashManager.compare(password, user.getPassword());
 

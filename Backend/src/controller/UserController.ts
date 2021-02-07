@@ -70,7 +70,7 @@ export class UserController {
   }
 
   public async login(req: Request, res: Response) {
-      console.log(req.body)
+      
     try {
       const userData = {
         email: req.body.email,
@@ -79,11 +79,11 @@ export class UserController {
       const userBusiness = new UserBusiness();
       const accessToken = await userBusiness.login(userData.email, userData.password)
       const hashManager = new HashManager()
-      const password = await hashManager.compare(userData.email, userData.password)
+      //const password = await hashManager.compare(userData.email, userData.password)
      
-      if (!password) {
-        throw new Error ("Invalid Password")
-      }
+      // if (!password) {
+      //   throw new Error ("Invalid Password")
+      // }
       res.status(200).send({
         token: accessToken,
       });

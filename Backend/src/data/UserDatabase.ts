@@ -44,8 +44,10 @@ export class UserDatabase extends BaseDataBase {
       .from(UserDatabase.TABLE_NAME)
       .where({ email });
     const data = result[0];
-    const user = new User(data.id, data.role, data.name, data.email, data.password, 
-      data.city, data.uf, data.job, data.linkedin, data.foto, data.gender, data.grupo );
+    console.log(data)
+    const user = new User(data.id, data.Role, data.Name, data.Email, data.Password, 
+      data.City, data.Uf, data.Job, data.Linkedin, data.Foto, data.Gender, data.Grupo );
+
     return user;
   }
 
