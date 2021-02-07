@@ -1,27 +1,37 @@
+export enum UserType {
+  MENTORIES = "MENTORIES",
+  LIST_MENTORIES = "LIST_MENTORIES",
+  LIST_MENTOR = "LIST_MENTOR",
+  MENTOR = "MENTOR"
+}
+
+// export enum GenderType {
+//   MULHER_CIS = "MULHER_CIS",
+//   HOMEM_CIS = "HOMEM_CIS",
+//   MULHER_TRANS = "MULHER_TRANS",
+//   HOMEM_TRANS = "HOMEM_TRANS",
+//   NAO_BINARIO = "NAO_BINARIO",
+//   PREF_NAO_IDENTIFICAR = "PREFIRO_NAO_IDENTIFICAR"
+// }
   
   export class User{
   
     constructor(
       private id: string,
-      private role: string,
       private name: string,
       private email: string,      
       private password: string,
       private city: string,
-      private uf: string,
       private job: string,
-      private linkedin: string,
-      private foto: string,
       private gender: string,
-      private grupo: string,
-      ) {}
+      private question: string,
+      private description: string,
+      private foto: string,
+      private role: UserType
+    ) {}
   
     getId(): string {
       return this.id;
-    }
-
-    getRole(): string {
-      return this.role;
     }
   
     getName(): string {
@@ -39,29 +49,29 @@
     getCity(): string {
       return this.city;
     }
-
-    getUf(): string {
-      return this.uf;
-    }
   
     getJob(): string {
       return this.job;
-    }
-
-    getLinkedin(): string {
-      return this.linkedin;
-    }
-
-    getFoto(): string {
-      return this.foto;
     }
   
     getGender(): string {
       return this.gender;
     }
 
-    getGrupo(): string {
-      return this.grupo;
+    getQuestion(): string {
+      return this.question;
+    }
+  
+    getDescription(): string {
+      return this.description;
+    }
+
+    getFoto(): string {
+      return this.foto;
+    }
+
+    getRole(): string {
+      return this.role;
     }
   
     setId(id: string) {
