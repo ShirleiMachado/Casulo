@@ -35,7 +35,15 @@ a{
     color: #f69050;
 }
 
+.singUp:hover{
+    color: #e0712c;
+}
+
 .singIn{
+    color: #88bfbf;
+}
+
+.singIn:hover{
     color: #629292;
 }
 
@@ -145,7 +153,7 @@ a{
 }
 
 .tituloSejaMentor{
-    color: #629292;
+    color: #f69050;
     font-family: 'Jost';
     font-size: 32px;
     line-height: 40px;
@@ -169,12 +177,12 @@ a{
     line-height: 45px;
     width: 368px;
     margin: 0 auto;
-    background-color: #88BFBF;
+    background-color: #f69050;
 
 }
 
 .btnSejaMentor:hover{
-    background-color: #2DA069;
+    background-color: #e0712c;
 }
 
 /* Recomendações */
