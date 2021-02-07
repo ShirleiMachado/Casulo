@@ -49,9 +49,15 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
     <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/pesq_sup_validar.png" width="400" height="auto">
 </p><br>
 
+
+### 🧑‍💻🙎‍♀️ Roteiro Quantitativo
+
 <p align="center">
     <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quant.png" width="600" height="auto">
 </p><br>
+
+
+### 🧑‍🎤🙎‍♀️ Roteiro Qualitativo
 
 <p align="center">
     <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quali.png" width="600" height="auto">
@@ -82,21 +88,19 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 
 <p align="center">
     <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/ilustracoes.png" width="400" height="auto">
-</p>
+</p><br>
 
 
 ### 📈 Business
 <p align="center">
  <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/monetizacao.png" width="400" height="auto">
-</p>
-<br>
+</p><br>
 
 
 ### 💻 Sitemap
 <p align="center">
  <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/sitemap.png" width="400" height="auto">
-</p>
-<br>
+</p><br>
 
 
 ## ✒️ As Criadoras
@@ -112,6 +116,7 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 💻 **Samantha Bianchi** - *Front-end* - [GitHub](https://github.com/SahBianchi)
 
 ⚙️**Shirlei Machado** - *Back-end* - [GitHub](https://github.com/ShirleiMachado)
+
 <br>
 
 
