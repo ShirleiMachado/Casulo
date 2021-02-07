@@ -27,7 +27,7 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 ### 🛠️ Construído com
 
 * [Figma](https://www.figma.com/) - Design UX-UI.
-* [Trello](https://trello.com/b/flCXp4pA/time-1-hackton-provi) - Gestão de Projetos.
+* [Trello](https://trello.com/) - Gestão de Projetos.
 * [TypeScript](https://www.typescriptlang.org/docs/) - Linguagem utilizada no Back-end.
 * [NodeJS](https://nodejs.org/pt-br/docs/) - Framework utilizado no Back-end.
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem utilizada no Front-end.
