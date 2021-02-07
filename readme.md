@@ -74,7 +74,7 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 <br>
 
 
-### 🏷️ Brand
+### 🏷️ Branding
 
 <p align="center">
     <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/color_palete.png" width="400" height="auto">
