@@ -41,9 +41,9 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 ### 🔎 Pesquisa Quantitativa e Qualitativa
 
 <p align="center">
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/pesq_sup_validar.png" width="400" height="auto">
+ <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/pesq_sup_validar.png" width="400" height="auto"><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quant.png" width="600" height="auto">
+ <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quant.png" width="600" height="auto"><br>
 
  <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quali.png" width="600" height="auto">
 </p>
@@ -61,11 +61,11 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 ### 🏷️ Brand
 
 <p align="center">
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/color_palete.png" width="400" height="auto">
+ <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/color_palete.png" width="400" height="auto"><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/tipografia.png" width="400" height="auto">
+ <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/tipografia.png" width="400" height="auto"><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/componentes.png" width="400" height="auto">
+ <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/componentes.png" width="400" height="auto"><br>
 
  <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/ilustracoes.png" width="400" height="auto">
 </p>
