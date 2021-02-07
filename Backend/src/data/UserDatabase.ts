@@ -7,30 +7,33 @@ export class UserDatabase extends BaseDataBase {
   
   public async CreateUser(
     id: string,
+    role: string,
     name: string,
-    email: string,
+    email: string,      
     password: string,
     city: string,
+    uf: string,
     job: string,
-    gender: string,
-    question: string,
-    description: string,
+    linkedin: string,
     foto: string,
-    role: string
+    gender: string,
+    grupo: string
+    
   ): Promise<void> {
     await this.getconnection()
       .insert({
         id,
+        role,
         name,
         email,
         password,
         city,
+        uf,
         job,
-        gender,
-        question,
-        description,
+        linkedin,
         foto,
-        role
+        gender,
+        grupo
       })
       .into(UserDatabase.TABLE_NAME);
   }
@@ -41,8 +44,8 @@ export class UserDatabase extends BaseDataBase {
       .from(UserDatabase.TABLE_NAME)
       .where({ email });
     const data = result[0];
-    const user = new User(data.id, data.name, data.email, data.password, 
-      data.city, data.job, data.gender, data.question, data.description, data.foto, data.role);
+    const user = new User(data.id, data.role, data.name, data.email, data.password, 
+      data.city, data.uf, data.job, data.linkedin, data.foto, data.gender, data.grupo );
     return user;
   }
 
