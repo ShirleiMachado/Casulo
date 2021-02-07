@@ -23,7 +23,7 @@ export class MentoriesController {
       
       res.status(200).send({
         token: accessToken
-      });
+      }); 
     } catch (e) {
       res.status(400).send({
         message: e.message,

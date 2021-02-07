@@ -4,12 +4,12 @@ import { User } from "../model/User";
 
 export class UserDatabase extends BaseDataBase {
   public static TABLE_NAME = "USERS";
-  
+
   public async CreateUser(
     id: string,
     role: string,
     name: string,
-    email: string,      
+    email: string,
     password: string,
     city: string,
     uf: string,
@@ -18,7 +18,7 @@ export class UserDatabase extends BaseDataBase {
     foto: string,
     gender: string,
     grupo: string
-    
+
   ): Promise<void> {
     await this.getconnection()
       .insert({
@@ -37,15 +37,16 @@ export class UserDatabase extends BaseDataBase {
       })
       .into(UserDatabase.TABLE_NAME);
   }
- 
+
   public async getUserEmail(email: string): Promise<User> {
     const result = await this.getconnection()
       .select("*")
       .from(UserDatabase.TABLE_NAME)
       .where({ email });
     const data = result[0];
-    const user = new User(data.id, data.role, data.name, data.email, data.password, 
-      data.city, data.uf, data.job, data.linkedin, data.foto, data.gender, data.grupo );
+    const user = new User(data.id, data.Role, data.Name, data.Email, data.Password,
+      data.City, data.Uf, data.Job, data.Linkedin, data.Foto, data.Gender, data.Grupo);
+
     return user;
   }
 
