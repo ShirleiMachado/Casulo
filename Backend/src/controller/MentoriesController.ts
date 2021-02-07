@@ -17,7 +17,7 @@ export class MentoriesController {
         };
     
       const mentoriesBusiness = new MentoriesBusiness();
-      await mentoriesBusiness.create(mentoriesData.name, mentoriesData.theme, mentoriesData.description,
+      const accessToken = await mentoriesBusiness.create(mentoriesData.name, mentoriesData.theme, mentoriesData.description,
         mentoriesData.idUser, mentoriesData.idMentor, mentoriesData.aproved );
       
       res.status(200).send({
