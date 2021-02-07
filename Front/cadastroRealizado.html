@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="../Front/css/modalLogin.css">
+    <link rel="stylesheet" href="../Front/css/cadastroRealizado.css">
+    <link rel="stylesheet" href="../Front/css/colors.css">
+
+    <title>Cadastro Realizado</title>
+</head>
+<body>
+    
+    <header class="sectionHeader">
+        <section class="col-sm-12 col-md-12">
+            <nav class="d-flex justify-content-between">
+                <a href="../Front/index.html" class="ancoragem"><img class="logo col-sm-8 col-md-6" width="50px" src="../Front/img/Logo laranja.svg" alt=""></a>
+                <menu class="col-sm-4 col-md-6 d-flex justify-content-end">
+                    <a class="col-sm-12 col-md-2 singIn" href="../Front/modalLogin.html" data-toggle="modal" data-target="#exampleModal">LOGIN</a>
+                </menu>
+            </nav>
+        </section>
+    </header>
+    
+
+    <main class="sectionMain">
+        <div class="cadastroRealizado row">
+            <img class="col-md-6" src="../Front/img/ilustra-cadastroRealizado.svg" alt="">
+            <article class="textoCadastroRealizado col-md-6">
+                <p><strong>Obrigada pelo <br>seu Cadastro!</strong></p>
+                <p>Entraremos em contato quando seu perfil for aprovado!</p>
+            </article>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <div>
+                <section class="visualRodape  col-md-6">
+                    <img src="../Front/img/Logo laranja.svg" alt="" class="logoRodape">
+            
+                
+                </section>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL --> 
+    <div class="modal  fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content modalTodo">
+                <div class="modal-header modalHeader  ">
+                    <a href=""><img class="modalLogo" src="./img/Logo laranja.jpg"  alt=""></a>
+                    <button type="button" class="close  btnfechar" data-dismiss="modal" aria-label="Close">
+                        <span class="Xfechar" aria-hidden="true"><img src="../Front/img/Xmodal.svg" alt=""></span>
+                    </button>
+                </div>
+                <div class="modal-body corpoModal bordavermelha">
+                    <form>
+                        <p class="textoLoginModal">Login</p>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btnModal ">ENTRAR</button>
+                            
+                        </div>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <a class='linkModal cadastro' href="../Front/cadastro.html">AINDA NÃO TENHO CADASTRO</a>
+                            
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+    <!-- Java Script -->
+		<script src= "../js/pagina_inicial.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
