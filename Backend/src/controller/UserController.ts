@@ -102,11 +102,11 @@ export class UserController {
 public async login(req: Request, res: Response) {
   try {
     const userData = {
-      nickname: req.body.nickname,
+      email: req.body.email,
       password: req.body.password
     };
     const userBusiness = new UserBusiness();
-    const accessToken = await userBusiness.login(userData.nickname, userData.password)
+    const accessToken = await userBusiness.login(userData.email, userData.password)
     res.status(200).send({
       token: accessToken,
     });
@@ -118,5 +118,4 @@ public async login(req: Request, res: Response) {
     BaseDataBase.destroyConnection();
   }
 }
- 
 }
