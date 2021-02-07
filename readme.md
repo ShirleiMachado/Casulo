@@ -17,6 +17,8 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 * Instale NodeJS em seu computador.
 * Baixe os aquivos do repositório Casulo aqui no GitHub.
 * Entre na pasta Back-end e instale via terminal utilizando o comando: npm install.
+* Crie um banco de dados no sistema SQL de sua preferência: MySQL, Postegree, SQL Server.
+* Crie uma tabela com o nome USERS no banco de sua preferência.
 <br>
 
 
