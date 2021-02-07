@@ -22,11 +22,16 @@ Informar os requisitos e dependências necessárias para a instalação e opera�
 
 ### 🛠️ Construído com
 
-* [Figma](https://www.figma.com/) - Usada para design de criação e prototipagem de telas.
+* [Figma](https://www.figma.com/) - Design UX-UI.
+* [Trello](https://trello.com/b/flCXp4pA/time-1-hackton-provi) - Gestão de Projetos.
 * [TypeScript](https://www.typescriptlang.org/docs/) - Linguagem utilizada no Back-end.
+* [NodeJS](https://nodejs.org/pt-br/docs/) - Framework utilizado no Back-end.
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem utilizada no Front-end.
-* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Linguagem de marcação utilizada no Front-end.
-* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) -Utilizado para estilização das páginas no Front-end.
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Linguagem de marcação utilizada no Front-end.
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Utilizado para estilização das páginas no Front-end.
+* [MySQL](https://dev.mysql.com/doc/) - Gerenciador de Banco de dados.
+* [Metabase](https://www.metabase.com/docs/latest/) - Gerenciador de Banco de dados.
+* [Docker](https://docs.docker.com/) - Criação de ambiente de desenvolvimento.
 <br>
 
 
@@ -41,13 +46,16 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 ### 🔎 Pesquisa Quantitativa e Qualitativa
 
 <p align="center">
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/pesq_sup_validar.png" width="400" height="auto"><br>
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/pesq_sup_validar.png" width="400" height="auto">
+</p><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quant.png" width="600" height="auto"><br>
+<p align="center">
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quant.png" width="600" height="auto">
+</p><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quali.png" width="600" height="auto">
-</p>
-<br>
+<p align="center">
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Pesquisa/roteiro_quali.png" width="600" height="auto">
+</p><br>
 
 
 ###  💡 Ideação
@@ -61,15 +69,20 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 ### 🏷️ Brand
 
 <p align="center">
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/color_palete.png" width="400" height="auto"><br>
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/color_palete.png" width="400" height="auto">
+</p><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/tipografia.png" width="400" height="auto"><br>
+<p align="center">
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/tipografia.png" width="400" height="auto">
+</p><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/componentes.png" width="400" height="auto"><br>
+<p align="center">
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/componentes.png" width="400" height="auto">
+</p><br>
 
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/ilustracoes.png" width="400" height="auto">
+<p align="center">
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/Brand_guidelines/ilustracoes.png" width="400" height="auto">
 </p>
-<br>
 
 
 ### 📈 Business
