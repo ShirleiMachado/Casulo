@@ -9,15 +9,14 @@ export default class HashManager {
         return cipherText;
     }
 
-    // public compare = async(text: string, 
-    //     cipherText: string): Promise<boolean> => {
-    //         const result = await bcrypt.compare(text, cipherText);
+    public compare = async(text: string, cipherText: string): Promise<boolean> => {
+            const result = await bcrypt.compare(text, cipherText);
 
-    //         return result;
-    //     }
+            return result;
+        }
 
-    public async compare(s: string, hash: string): Promise<boolean> {
-        const result = await bcrypt.compare(s, hash);
-        return result;
-      }
+    // public async compare(s: string, hash: string): Promise<boolean> {
+    //     const result = await bcrypt.compare(s, hash);
+    //     return result;
+    //   }
     }
