@@ -21,7 +21,7 @@
     background: #59D89B;
 }
 
-.highlight_dark{
+.highlight_dark {
     background: #2DA069;
 }
 
@@ -29,50 +29,61 @@
     background:#3B5757;
 }
 
-.highlight_secondary{
+.highlight_secondary {
     background: #A0505A;
 }
 
 
 /* Alerts */
-.success{
+.success {
     background: #53BF85;
 }
 
-.info{
+.info {
     background: #507EF6;
 }
 
-.warning{
+.warning {
     background: #F6C850;
 }
 
-.danger{
+.danger {
     background: #F65050 ;
 }
 
 
 /* Grayscale */
-.lightest{
+.lightest {
     background: #FFFFFF;
 }
 
-.light{
+.light {
     background: #FFF9F0;
 }
 
-.medium{
+.medium {
     background: #F5E4D4;
 }
 
-.medium-plus{
+.medium-plus {
     background: #BEC6DD;
 }
 
-.dark{
+.dark {
     background: #8D98B4;
 }
 
-.darkest{
+.darkest {
     background: #1C212F;
+}
+
+
+/* Text colors */
+
+.primary_brand_txt {
+    color: #626A7F;
+}
+
+.medium_txt {
+    background: #F5E4D4;
 }
