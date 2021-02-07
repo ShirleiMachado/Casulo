@@ -6,22 +6,22 @@ export class UserController {
   public async signupUser(req: Request, res: Response) {
     try {
       const userData = {
+        role: req.body.role,
         name: req.body.name,
         email: req.body.email,
         password: req.body.password,
         city: req.body.city,
+        uf: req.body.uf,
         job: req.body.job,
-        gender: req.body.gender,
-        question: req.body.question,
-        description:req.body.description,
+        linkedin:req.body.linkedin,
         foto:req.body.foto,
-        role: req.body.role
+        gender: req.body.gender,
+        grupo: req.body.grupo
       };
     
       const userBusiness = new UserBusiness();
-      const accessToken = await userBusiness.signup(userData.name, userData.email, 
-      userData.password, userData.city, userData.job, userData.gender, 
-      userData.question, userData.description, userData.foto, userData.role);
+      const accessToken = await userBusiness.signup(userData.role, userData.name, userData.email, userData.password, 
+        userData.city, userData.uf, userData.job, userData.linkedin, userData.foto, userData.gender, userData.grupo);
 
       res.status(200).send({
         token: accessToken,
@@ -38,23 +38,22 @@ export class UserController {
   public async signupMentor(req: Request, res: Response) {
     try {
       const userData = {
+        role: req.body.role,
         name: req.body.name,
         email: req.body.email,
         password: req.body.password,
         city: req.body.city,
+        uf: req.body.uf,
         job: req.body.job,
-        gender: req.body.gender,
-        question: req.body.question,
-        description:req.body.description,
+        linkedin:req.body.linkedin,
         foto:req.body.foto,
-        role: req.body.role,
-        token: req.headers.token as string
+        gender: req.body.gender,
+        grupo: req.body.grupo
       };        
     
       const userBusiness = new UserBusiness();
-      const accessToken = await userBusiness.signupMentor(userData.name, userData.email, 
-        userData.password, userData.city, userData.job, userData.gender, 
-        userData.question, userData.description, userData.foto, userData.role, userData.token);
+      const accessToken = await userBusiness.signupMentor(userData.role, userData.name, userData.email, userData.password, 
+        userData.city, userData.uf, userData.job, userData.linkedin, userData.foto, userData.gender, userData.grupo, userData.token);
 
         res.status(200).send({
         token: accessToken,

@@ -5,12 +5,10 @@ import Authenticator from "../sevices/Authenticator";
 
 export class UserBusiness {
  
-  async signup(name: string, email: string, password: string, city: string,
-    job: string, gender: string, question:string, description:string, 
-    foto:string, role:string) {
+  async signup(role:string, name: string, email: string, password: string, city: string, uf:string,
+    job: string, linkedin: string, foto:string, gender: string, grupo:string) {
     
-      if (!name || !email || !password || !city ||!job || !gender || !question 
-        || !description || !foto || !role)
+      if ( !role|| !name || !email || !password || !city ||!job ||!linkedin|| !foto|| !gender || !grupo )
         {
           throw new Error("Invalid input");
         }
@@ -31,8 +29,8 @@ export class UserBusiness {
     const id = idGenerator.generateId();
 
     const userDatabase = new UserDatabase();
-    await userDatabase.CreateUser(id, name, email, cipherText, city, job, 
-      gender, question, description, foto, role);
+    await userDatabase.CreateUser(id, role, name, email, cipherText, city, uf, job, 
+      linkedin, foto, gender, grupo );
 
     const authenticator = new Authenticator();
     const accessToken = authenticator.generateToken({id, role})
@@ -40,11 +38,10 @@ export class UserBusiness {
     return accessToken
   }
 
-  async signupMentor(name: string, email: string, password: string, city: string,
-    job: string, gender: string, question:string, description:string, foto: string, role:string, token:string) {
+  async signupMentor(role:string, name: string, email: string, password: string, city: string, uf:string,
+    job: string, linkedin: string, foto:string, gender: string, grupo:string, token:string) {
 
-        if (!name || !email || !password || !city ||!job || !gender 
-          || !question || !description|| !foto ||!role)
+        if (!role|| !name || !email || !password || !city ||!job ||!linkedin|| !foto|| !gender || !grupo)
         {
           throw new Error("Invalid input");
         }
@@ -70,8 +67,8 @@ export class UserBusiness {
     const id = idGenerator.generateId();
 
     const userDatabase = new UserDatabase();
-    await userDatabase.CreateUser(id, name, email, cipherText, city, job, 
-      gender, question, description, foto, role);
+    await userDatabase.CreateUser(id, role, name, email, cipherText, city, uf, job, 
+      linkedin, foto, gender, grupo);
 
     const authenticator = new Authenticator();
     const accessToken = authenticator.generateToken({id, role})
