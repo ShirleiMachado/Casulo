@@ -14,7 +14,9 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 
 ### 📋 Pré-requisitos para instalação 🔧
 
-Informar os requisitos e dependências necessárias para a instalação e operação do produto em ambiente local.
+* Instale NodeJS em seu computador.
+* Baixe os aquivos do repositório Casulo aqui no GitHub.
+* Entre na pasta Back-end e instale via terminal utilizando o comando: npm install.
 <br>
 
 
