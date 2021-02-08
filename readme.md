@@ -97,14 +97,22 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 
 ### 📈 Business
 <p align="center">
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/monetizacao.png" width="400" height="auto">
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/monetizacao.png" width="400" height="auto">
 </p><br>
 
 
 ### 💻 Sitemap
 <p align="center">
- <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/sitemap.png" width="400" height="auto">
+    <img src="https://github.com/ShirleiMachado/Casulo/blob/main/Img-readme/sitemap.png" width="400" height="auto">
 </p><br>
+
+
+### 💻 Vídeos de Apresentação
+
+* <a href="https://studio.youtube.com/video/_KcJjiZsN-4/edit">Apresentação</a>
+
+* <a href="https://www.youtube.com/watch?v=_RYpAlF_P3E">Aplicação</a>
+<br>
 
 
 ## ✒️ As Criadoras
