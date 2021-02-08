@@ -107,7 +107,7 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 </p><br>
 
 
-### 💻 Vídeos de Apresentação
+### 📺 Vídeos de Apresentação
 
 * <a href="https://www.youtube.com/watch?v=_KcJjiZsN-4">Apresentação</a>
 
