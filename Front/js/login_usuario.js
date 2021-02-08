@@ -1,20 +1,26 @@
-const url = `rota`;
+const url = `http://localhost:3003/login`;
+let form = document.querySelector("form")
+form.addEventListener('submit', function(event){
+    event.preventDefault()
+    event.stopPropagation()})
 
-async function login_usuario() {
+ function loginUsuario() {
     const body = {
         email : document.querySelector("#email").value,
-        senha : document.querySelector("#senha").value
+        password : document.querySelector("#password").value       
     }
+    
+    console.log(body);
 
-    const request = await fetch
+    const request = fetch
         (url, {
             method: 'POST',
-            headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+            headers: {'Content-Type': 'application/json',},
             body: JSON.stringify(body), mode: 'cors', cache: 'default'
         })
 
         .then(response => {
-            localStorage('login', response.json());
+            console.log(response.json());
         })
         .catch(error => {
             this.errorMessage = error;

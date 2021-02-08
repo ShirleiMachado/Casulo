@@ -1,0 +1,78 @@
+/*Fontes do projeto: Just e Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+
+/*Topo*/
+.sectionHeader{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.singIn{
+    color: #88bfbf;
+}
+
+.singIn:hover{
+    color: #629292;
+}
+
+
+/* Main */
+.sectionMain{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imgCadastro{
+    width: 369px;
+}
+
+.cadastroRealizado{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+}
+
+.textoCadastroRealizado{
+    font-size: 56px;
+    line-height: 68px;
+}
+
+
+/* Rodape */
+.rodape{
+    background-color: #f5e4d4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoRodape{
+    width: 249px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}

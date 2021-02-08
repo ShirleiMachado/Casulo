@@ -1,30 +1,35 @@
-const url = `rota`;
+const url = `http://localhost:3003/`;
+let form = document.querySelector("form")
+form.addEventListener('submit', function(event){
+    event.preventDefault()
+    event.stopPropagation()})
 
-async function cadastro_usuario() {
+ function cadastroUsuario() {
     const body = {
-        role : document.querySelector("#grupo").value,
-        name: document.querySelector("#nome").value,
+        role : document.querySelector("#user").value,
+        name : document.querySelector("#nome").value,
         email : document.querySelector("#email").value,
-        passaword : document.querySelector("#password").value,
+        password : document.querySelector("#password").value,
         city : document.querySelector("#city").value,
-        state : document.querySelector("#state").value,
-        especialidade : document.querySelector("#especialidade").value,
-        genero : document.querySelector("#genero").value,
-        group : document.querySelector("#group").value,
-        foto : document.querySelector("#foto").value,
+        uf : document.querySelector("#state").value,
+        job : document.querySelector("#job").value,
         linkedin : document.querySelector("#linkedin").value,
+        foto : document.querySelector("#foto").value,
+        gender : document.querySelector("#genero").value,
+        grupo : document.querySelector("#group").value
         
     }
+    console.log(body);
 
-    const request = await fetch
+    const request = fetch
         (url, {
             method: 'POST',
-            headers: { 'Accept': 'application/json', 'Content-Type': 'application/json'},
+            headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(body), mode: 'cors', cache: 'default'
         })
 
-        .then(response => {
-            console.log(response.json());
+        .then(request => {
+            console.log(request.json());
         })
         .catch(error => {
             this.errorMessage = error;

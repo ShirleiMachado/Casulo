@@ -10,6 +10,9 @@
 
     <!--Estilos-->
     <link rel="stylesheet" href="../Front/css/style.css">
+
+    <link rel="stylesheet" href="../Front/css/modalLogin.css">
+
     <link rel="stylesheet" href="../Front/css/colors.css">
 
     <title>Home</title>
@@ -19,10 +22,12 @@
     <section class="sectionHeader">
         <header class=" col-sm-12 col-md-12">
             <nav class="d-flex justify-content-between">
-                <img class="logo col-sm-8 col-md-6" src="../Front/img/Logo laranja.svg" alt="">
+
+                <a href="../Front/index.html" class="ancoragem"><img class="logo col-sm-8 col-md-6" width="50px" src="../Front/img/Logo laranja.svg" alt=""></a>
                 <menu class="col-sm-4 col-md-6 d-flex justify-content-end">
-                    <a class="col-sm-12 col-md-2 singUp" href="./cadastro.html">CADASTRO</a>
-                    <a class="col-sm-12 col-md-2 singIn" href="./meuPerfil.html">LOGIN</a>
+                    <a class="col-sm-12 col-md-2 singUp" href="cadastro.html">CADASTRO</a>
+                    <a class="col-sm-12 col-md-2 singIn" href="../Front/modalLogin.html" data-toggle="modal" data-target="#exampleModal">LOGIN</a>
+
                 </menu>
             </nav>
 
@@ -32,7 +37,9 @@
                         suas metas de <strong>carreira tech</strong>!
                     
                     </p>
-                    <button class="btnApresentacao">COMEÇAR MINHA TRAJETÓRIA!</button>
+
+                    <a href="../Front/cadastro.html"><button class="btnApresentacao" type="submit" >COMEÇAR MINHA TRAJETÓRIA!</button></a>
+
                 </article>
                 <img class="col-md-6" src="../Front/img/ilustra-apresentacao.svg" alt="">
             </div>
@@ -65,7 +72,9 @@
                 <article class="col-md-7 articleSejaMentor">
                     <p class="tituloSejaMentor">Seja mentor!</p>
                     <p class="textoSejaMentor">Compartilhe seu <strong>conhecimento</strong> com outros profissionais e <strong>aprenda muito ajudando</strong> na trajetória de outro profissional.</p>
-                    <button class="btnSejaMentor">SEJA UM MENTOR!</button>
+
+                    <a href="../Front/cadastro.html"><button class="btnSejaMentor">SEJA UM MENTOR!</button></a>
+
                 </article>
             </div>
 
@@ -183,8 +192,9 @@
                     <div class="integranteIndividual">
                         <img src="../Front/img/Marina.svg" alt="" class="imgIntegrantes">
                         <h5 class="nomeintegrantes">Marina</h5>
-                        <h6 class="cargointegrantes">Design</h6>
-                    </div>
+
+                        <h6 class="cargointegrantes">UX/UI</h6>
+      </div>
 
                     <!-- Marcella -->
                     <div class="integranteIndividual">
@@ -197,7 +207,9 @@
                     <div class="integranteIndividual">
                         <img src="../Front/img/Guilhermina.svg" alt="" class="imgIntegrantes">
                         <h5 class="nomeintegrantes">Guilhermina</h5>
-                        <h6 class="cargointegrantes">Back e Front</h6>
+
+                        <h6 class="cargointegrantes">Full-Stack</h6>
+
                     </div>
                     
                     <!-- Shirlei -->
@@ -232,8 +244,46 @@
     </footer>
 
 
+    <!-- MODAL -->
+    
+    <div class="modal  fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content modalTodo">
+                <div class="modal-header modalHeader  ">
+                    <a href=""><img class="modalLogo" src="./img/Logo laranja.jpg"  alt=""></a>
+                    <button type="button" class="close  btnfechar" data-dismiss="modal" aria-label="Close">
+                        <span class="Xfechar" aria-hidden="true"><img src="../Front/img/Xmodal.svg" alt=""></span>
+                    </button>
+                </div>
+                <div class="modal-body corpoModal bordavermelha">
+                    <form>
+                        <p class="textoLoginModal">Login</p>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btnModal" onclick="loginUsuario()">ENTRAR</button>
+                            
+                        </div>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <a class='linkModal cadastro' href="../Front/cadastro.html">AINDA NÃO TENHO CADASTRO</a>
+                            
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+
     <!-- Java Script -->
-		<script src= "../js/pagina_inicial.js"></script>
+		<!--<script src= "../js/pagina_inicial.js"></script>-->
 		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
