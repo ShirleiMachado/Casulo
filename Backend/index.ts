@@ -4,11 +4,12 @@ import { AddressInfo } from "net";
 import { userRouter } from "./src/router/UserRouter";
 import { mentoriesRouter } from "./src/router/MentoriesRouter";
 
+import cors from "cors";
 
 dotenv.config();
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
 
 app.use("/", userRouter);

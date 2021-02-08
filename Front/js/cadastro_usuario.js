@@ -24,12 +24,12 @@ form.addEventListener('submit', function(event){
     const request = fetch
         (url, {
             method: 'POST',
-            headers: { 'Accept': 'application/json', 'Content-Type': 'application/json'},
+            headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(body), mode: 'cors', cache: 'default'
         })
 
-        .then(response => {
-            console.log(response.json());
+        .then(request => {
+            console.log(request.json());
         })
         .catch(error => {
             this.errorMessage = error;
