@@ -3,12 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 
-
 /*Topo*/
 .sectionHeader{
     width: 80%;
     height: auto;
     margin: 0 auto;
+}
+
+
+header{
+    z-index: 9;
+    height: 100px;
 }
 
 nav{
@@ -18,11 +23,13 @@ nav{
     align-items: center;
 }
 
+
 nav a .ancoragem{
     width: 150px;
     position:fixed;
     top: 0;
 }
+
 
 .logo{
     width: 150px;
@@ -34,6 +41,7 @@ a{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+
 
 .singIn{
     color: #88bfbf;
@@ -147,3 +155,5 @@ div.form {
     margin-right: 150px;
     margin-bottom: 40px;
 }
+
+

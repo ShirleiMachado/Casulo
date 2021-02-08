@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-
-
-/*Topo*/
 .sectionHeader{
     width: 80%;
     height: auto;
     margin: 0 auto;
 }
+
 
 header{
     z-index: 9;
@@ -37,6 +35,7 @@ a{
     color: #f69050;
 }
 
+
 .singUp:hover{
     color: #e0712c;
 }
@@ -46,6 +45,8 @@ a{
 }
 
 .singIn:hover{
+
+.singIn{
     color: #629292;
 }
 
@@ -63,6 +64,7 @@ a{
     font-size: 56px;
     line-height: 68px;
 }
+
 
 .btnApresentacao{
     font-family: 'poppins';
@@ -135,7 +137,6 @@ a{
 
 }
 
-
 /* Seja mentor */
 .containerSejaMentor{
     width: 80%;
@@ -156,6 +157,7 @@ a{
 
 .tituloSejaMentor{
     color: #f69050;
+
     font-family: 'Jost';
     font-size: 32px;
     line-height: 40px;
@@ -179,12 +181,16 @@ a{
     line-height: 45px;
     width: 368px;
     margin: 0 auto;
+
     background-color: #f69050;
+
 
 }
 
 .btnSejaMentor:hover{
+
     background-color: #e0712c;
+
 }
 
 /* Recomendações */
@@ -210,9 +216,11 @@ a{
     margin-bottom: 50px;
 }
 
+
 .nomeRecomendações{
     text-align: center;
 }
+
 
 .card{
     width: 302px;
@@ -222,9 +230,11 @@ a{
     margin: 25px auto;
 }
 
+
 .card-text{
     font-style:italic; 
 }
+
 
 .corBotaoCarrossel{
    color: rgba(190, 198, 221, 0.2);
