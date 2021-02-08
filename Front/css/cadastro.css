@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
+
 /*Topo*/
 .sectionHeader{
     width: 80%;
@@ -9,16 +10,26 @@
     margin: 0 auto;
 }
 
+
 header{
     z-index: 9;
     height: 100px;
 }
+
 nav{
    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
+nav a .ancoragem{
+    width: 150px;
+    position:fixed;
+    top: 0;
+}
+
 
 .logo{
     width: 150px;
@@ -31,6 +42,118 @@ a{
     font-weight: 700;
 }
 
-.singUp{
-    color: #f69050;
+
+.singIn{
+    color: #88bfbf;
 }
+
+.singIn:hover{
+    color: #629292;
+}
+
+
+/* Main */
+.sectionMain{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imgCadastro{
+    width: 400px;
+}
+
+.cadastroForm {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.corpoForm {
+    margin-bottom: 50px;
+}
+
+.tituloForm{
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #629292;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+div.form {
+    width: 400px;
+}
+
+.espacamento{
+    padding-bottom: 15px;
+}
+
+.cidadeUf{
+    display: flex;
+    flex-direction: row;
+}
+
+.uf{
+    padding-right: 15px;
+}
+
+.btnCadastrar{
+    font-family: 'poppins';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    line-height: 45px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #88bfbf;
+
+}
+
+.btnCadastrar:hover{
+    background-color: #629292;
+}
+
+.cadastrar{
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.jaTenhoCadastro{
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 700;
+    color: #88bfbf;
+    margin-bottom: 30px;
+}
+
+.jaTenhoCadastro:hover{
+    color: #629292;
+}
+
+
+/* Rodape */
+.rodape{
+    background-color: #f5e4d4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoRodape{
+    width: 249px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+
+

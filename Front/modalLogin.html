@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <title>Modal</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="../Front/css/modalLogin.css">
+    <link rel="stylesheet" href="../Front/css/colors.css">
+
+  </head>
+  <body>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+    <div class="modal  fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content modalTodo">
+                <div class="modal-header modalHeader  ">
+                    <a href=""><img class="modalLogo" src="./img/Logo laranja.jpg"  alt=""></a>
+                    <button type="button" class="close  btnfechar" data-dismiss="modal" aria-label="Close">
+                        <span class="Xfechar" aria-hidden="true"><img src="./img/Vector.svg" alt=""></span>
+                    </button>
+                </div>
+                <div class="modal-body corpoModal bordavermelha">
+                    <form>
+                        <p class="textoLoginModal">Login</p>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btnModal ">ENTRAR</button>
+                            
+                        </div>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <a class='linkModal' href="">AINDA NÃO TENHO CADASTRO</a>
+                            
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src= "../js/pagina_inicial.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>

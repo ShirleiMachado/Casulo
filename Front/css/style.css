@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-/*Topo*/
+
 header{
     z-index: 9;
     height: 100px;
@@ -35,6 +35,17 @@ a{
     color: #f69050;
 }
 
+
+.singUp:hover{
+    color: #e0712c;
+}
+
+.singIn{
+    color: #88bfbf;
+}
+
+.singIn:hover{
+
 .singIn{
     color: #629292;
 }
@@ -54,10 +65,7 @@ a{
     line-height: 68px;
 }
 
-/* .imgApresentacao{
-    width: 468px;
-    height: 376px;
-} */
+
 .btnApresentacao{
     font-family: 'poppins';
     font-size: 14px;
@@ -128,6 +136,7 @@ a{
     margin-top: 60px;
 
 }
+
 /* Seja mentor */
 .containerSejaMentor{
     width: 80%;
@@ -136,16 +145,19 @@ a{
     align-items: center;
 
 }
+
 .imgSejaMentor{
     width: 370px;
     height: 333px;
 }
+
 .articleSejaMentor{
     text-align: right;
 }
 
 .tituloSejaMentor{
-    color: #629292;
+    color: #f69050;
+
     font-family: 'Jost';
     font-size: 32px;
     line-height: 40px;
@@ -169,12 +181,16 @@ a{
     line-height: 45px;
     width: 368px;
     margin: 0 auto;
-    background-color: #88BFBF;
+
+    background-color: #f69050;
+
 
 }
 
 .btnSejaMentor:hover{
-    background-color: #2DA069;
+
+    background-color: #e0712c;
+
 }
 
 /* Recomendações */
@@ -199,9 +215,13 @@ a{
    align-items:center;
     margin-bottom: 50px;
 }
+
+
 .nomeRecomendações{
     text-align: center;
 }
+
+
 .card{
     width: 302px;
     text-align: center;
@@ -209,9 +229,13 @@ a{
     padding: 30px 35px;
     margin: 25px auto;
 }
+
+
 .card-text{
     font-style:italic; 
 }
+
+
 .corBotaoCarrossel{
    color: rgba(190, 198, 221, 0.2);
 }

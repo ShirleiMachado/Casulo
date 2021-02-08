@@ -1,35 +1,242 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Cadastro</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Estilos -->
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="../Front/css/modalLogin.css">
     <link rel="stylesheet" href="../Front/css/cadastro.css">
     <link rel="stylesheet" href="../Front/css/colors.css">
 
-  </head>
-  <body>
-    <section class="sectionHeader">
-        <header class=" col-sm-12 col-md-12">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <header class="sectionHeader">
+        <section class="col-sm-12 col-md-12">
             <nav class="d-flex justify-content-between">
-                <img class="logo col-sm-8 col-md-6" src="../Front/img/Logo laranja.svg" alt="">
+                
+              <a href="../Front/index.html" class="ancoragem"><img class="logo col-sm-8 col-md-6" src="../Front/img/Logo laranja.svg" alt=""></a>
+
                 <menu class="col-sm-4 col-md-6 d-flex justify-content-end">
-                    <a class="col-sm-12 col-md-2 singIn" href="./meuPerfil.html">LOGIN</a>
+                    <a class="col-sm-12 col-md-2 singIn" href="../Front/modalLogin.html" data-toggle="modal" data-target="#exampleModal">LOGIN</a>
                 </menu>
             </nav>
-        </header>
-    </section>
+        </section>
+    </header>
+
+    
+    
+    <!-- Corpo -->
+    <
+  class="sectionMain">
+
+      <div class="cadastroForm">
+        <div class="corpoForm">
+          <h2 class="tituloForm">Faça já seu cadastro!</h2>
+          <!-- <img class="col-md-6 imgForm" src="../Front/img/imgForm.svg" alt=""> -->
+  
+          <!-- Form -->
+          <div class="form">
+            <form class="">
+  
+              <!-- Mentor/Mentorado -->
+              <div class="espacamento">
+                <select id="user" class="form-select">
+                  <option selected>Mentorado</option>
+                  <option>Mentor</option>
+                </select>
+              </div>
+  
+              <!-- Nome -->
+              <div class="espacamento">
+                <input type="nome" class="form-control" id="nome" placeholder="Nome">
+              </div>
+  
+              <!-- Email -->
+              <div class="espacamento">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+  
+              <!-- Senha -->
+              <div class="espacamento">
+                <input type="password" class="form-control" id="password" placeholder="Senha">
+              </div>
+  
+              <!-- Cidade -->
+              <div class="cidadeUf">
+              <div class="espacamento uf col-md-6">
+                <input type="text" class="form-control" id="city" placeholder="Cidade">
+              </div>
+  
+              <!-- Estados -->
+              <div class="espacamento col-md-6">
+                <select id="state" class="form-select" placeholder="UF">
+                  <option>UF</option>
+                  <option> AC</option>
+                  <option> AL</option>
+                  <option> AM</option>
+                  <option> AP</option>
+                  <option> BA</option>
+                  <option> CE</option>
+                  <option> DF</option>
+                  <option> ES</option>
+                  <option> GO</option>
+                  <option> MA</option>
+                  <option> MG</option>
+                  <option> MS</option>
+                  <option> MT</option>
+                  <option> PA</option>
+                  <option> PB</option>
+                  <option> PE</option>
+                  <option> PI</option>
+                  <option> PR</option>
+                  <option> RJ</option>
+                  <option> RN</option>
+                  <option> RO</option>
+                  <option> RR</option>
+                  <option> RS</option>
+                  <option> SC</option>
+                  <option> SE</option>
+                  <option> SP</option>
+                  <option> TO</option>
+                </select>
+              </div>
+            </div>
+
+              <!-- Especialidade -->
+              <div class="espacamento">
+                <select id="job" class="form-select" >
+                  <option>Especialidade</option>
+                  <option>Produto</option>
+                  <option>UX/UI</option>
+                  <option>Data</option>
+                  <option>DevOPs</option>
+                  <option>Front-End</option>
+                  <option>Back-End</option>
+                </select>
+              </div>
+  
+              <!-- Linkedin -->
+              <div class="espacamento">
+                <input type="linkLinkedin" class="form-control" id="linkedin" placeholder="Linkedin">
+              </div>
+  
+              <!-- Link da Foto -->
+              <div class="espacamento">
+                <input type="linkFoto" class="form-control" id="foto" placeholder="Link da Foto">
+              </div>
+  
+              <!-- Gênero -->
+              <div class="espacamento">
+                <select id="genero" class="form-select" >
+                  <option>Gênero</option>
+                  <option>Mulher Cis</option>
+                  <option>Mulher Trans</option>
+                  <option>Homem Cis</option>
+                  <option>Homem Trans</option>
+                  <option>Não Binário</option>
+                  <option>Prefiro não dizer</option>                
+                </select>
+              </div>
+  
+              <!-- Grupo Diverso -->
+              <div class="espacamento">
+                <select id="group" class="form-select" >
+                  <option>Grupo Diverso</option>
+                  <option>Étnico Racial</option>
+                  <option>PCD</option>
+                  <option>LGBTQIA+</option>
+                  <option>Refugiados</option>
+                  <option>Mulheres</option>
+                  <option>Não me Identifico</option>                
+                </select>
+              </div>
+              
+              <div class="col-12">
+                <button type="submit" class="btnCadastrar" onclick="cadastroUsuario()">Cadastrar</button>
+              </div>
+            </form>
+        </div>
+      </div>
+
+      <div class="imgCadastro">
+        <img  src="../Front/img/imgForm.svg" alt="">
+
+      </div>
+      
+    </div>
+      <div class="cadastrar">
+        <a class="jaTenhoCadastro" data-toggle="modal" data-target="#exampleModal">Já tenho cadastro</a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="rodape">
+          <div>
+              <section class="visualRodape  col-md-6">
+                  <img src="../Front/img/Logo laranja.svg" alt="" class="logoRodape">
+          
+              
+              </section>
+          </div>
+      </div>
+  </footer>
+
+  <!-- MODAL --> 
+  <div class="modal  fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog " role="document">
+          <div class="modal-content modalTodo">
+              <div class="modal-header modalHeader  ">
+                  <a href=""><img class="modalLogo" src="./img/Logo laranja.jpg"  alt=""></a>
+                  <button type="button" class="close  btnfechar" data-dismiss="modal" aria-label="Close">
+                      <span class="Xfechar" aria-hidden="true"><img src="../Front/img/Xmodal.svg" alt=""></span>
+                  </button>
+              </div>
+              <div class="modal-body corpoModal bordavermelha">
+                  <form>
+                      <p class="textoLoginModal">Login</p>
+                      <div class="form-group">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                          
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                      </div>
+                      <div class="d-flex justify-content-end">
+                          <button type="button" class="btnModal ">ENTRAR</button>
+                          
+                      </div>
+                      <br>
+                      <div class="d-flex justify-content-center">
+                          <a class='linkModal cadastro' href="">AINDA NÃO TENHO CADASTRO</a>
+                          
+                      </div>
+                      
+                  </form>
+                  
+              </div>
+          </div>
+      </div>
+
+
+
+
+
+    
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src= "../js/pagina_inicial.js"></script>
+    <script src="../Front/js/cadastro.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>
