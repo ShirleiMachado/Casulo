@@ -111,7 +111,7 @@ Nós usamos [GitHub](https://github.com/) para controle de versão. Para as vers
 
 * <a href="https://www.youtube.com/watch?v=_KcJjiZsN-4">Apresentação</a>
 
-* <a href="https://www.youtube.com/watch?v=_RYpAlF_P3E">Aplicação</a>
+* <a href="https://www.youtube.com/watch?v=258B-V6ZJDA">Aplicação</a>
 <br>
 
 
